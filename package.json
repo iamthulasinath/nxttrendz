@@ -1,12 +1,7 @@
 {
-  "homepage": "/",
-  "name": "nxt-trendz-specific-product-details",
+  "name": "frontend",
+  "version": "0.1.0",
   "private": true,
-  "version": "1.0.0",
-  "engines": {
-    "node": "22.x",
-    "npm": ">=6"
-  },
   "dependencies": {
     "@testing-library/jest-dom": "5.11.9",
     "@testing-library/react": "11.2.5",
@@ -22,8 +17,6 @@
     "react-router-dom": "5.2.0"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
